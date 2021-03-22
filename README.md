@@ -1,16 +1,12 @@
-### Hi there 👋
+### DERLEYİCİDE TÜRKÇE KARAKTERİ OLUŞTURMA
 
-<!--
-**zeynepotu/zeynepotu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+int main()
+{
+    setlocale(LC_ALL,"Turkish");
+    printf("MERHABA dünya");
+    return 0;
+}
