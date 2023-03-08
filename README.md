@@ -1,5 +1,6 @@
 ### DERLEYİCİDE TÜRKÇE KARAKTERİ OLUŞTURMA
 
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
@@ -10,3 +11,4 @@ int main()
     printf("MERHABA dünya");
     return 0;
 }
+```
